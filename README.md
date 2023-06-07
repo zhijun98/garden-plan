@@ -1,2 +1,3 @@
 # garden-plan
-This repository provides a high-level overview of the garden system's architecture, design, and deployment for the public.
+
+Prior to 2022, the garden system was implemented as a monolithic system to cater to its front-end, e.g. PeonyOffice, which is a classic JavaFX rich-GUI-client. As the system grew increasingly complex, it is currently undergoing a comprehensive reengineering process utilizing Spring Cloud technologies. The objective is to transform the entire system into a decoupled microservices architecture. In addition, more front-end clients are introduced, including web-based clients and mobile apps that utilize Angular/Ionic frameworks. This repository provides a high-level overview of the garden's microservices architecture, design, and deployment for the public.
